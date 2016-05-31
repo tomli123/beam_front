@@ -1,0 +1,157 @@
+body {
+  background-color:#DCDDDE;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    max-width: inherit;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+a {
+    align-self: center;
+}
+h1 {
+  text-align: center;
+  font-size: 150px;
+  font-style: normal;
+}
+div {
+  margin-left: 500px;
+}
+a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.All_movies {
+  width:auto;
+  padding: 25px;
+  border: 5px solid navy;
+  background-color: #0BA5D9;
+  margin: 25px;
+}
+.DEBIL{
+  margin-left: 1350px;
+}
+
+.movie{
+  width:auto;
+  padding: 25px;
+  border: 5px solid navy;
+  background-color: #0BA5D9;
+  margin: 25px;
+  margin-top:
+
+}
+
+
+.list-group{
+
+  margin-left: -5px;
+
+
+
+}
+
+.moviepic{
+  margin-left: 1100px;
+}
+
+.name {
+  font-size:50px;
+  margin-left: 20px;
+}
+
+
+.list-group2{
+
+  margin-right: 600px;
+  margin-left: auto;
+
+
+}
+
+.lol {
+  font-size: 50px;
+}
+
+
+
+.btn-big-red {
+  background-color: #C63702;
+  background-image:
+    linear-gradient(
+      167deg,
+      rgba(white, 0.1) 50%,
+      rgba(black, 0) 55%),
+    linear-gradient(
+      top,
+      rgba(white, 0.15),
+      rgba(black, 0));
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 1px #C63702 inset,
+    0 0 0 2px rgba(white, 0.15) inset,
+    0 8px 0 0 #AD3002,
+    0 8px 0 1px rgba(black, 0.4),
+    0 8px 8px 1px rgba(black, 0.5);
+  color: #FFF;
+  display: inline-block;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  height: 61px;
+  letter-spacing: -1px;
+  line-height: 61px;
+  margin: 30px 0 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(black, 0.5);
+  text-decoration: none !important;
+  top: 0;
+  width: 186px;
+  @include transition(0.15s);
+  &:hover, &:focus {
+    background-color: #D13902;
+    box-shadow:
+      0 0 0 1px #C63702 inset,
+      0 0 0 2px rgba(white, 0.15) inset,
+      0 10px 0 0 #AD3002,
+      0 10px 0 1px rgba(black, 0.4),
+      0 10px 8px 1px rgba(black, 0.6);
+      top: -2px;
+  }
+  &:active {
+    box-shadow:
+      0 0 0 1px #AD3002 inset,
+      0 0 0 2px rgba(white, 0.15) inset,
+      0 0 0 1px rgba(black, 0.4);
+    @include transform(translateY(10px));
+  }
+}

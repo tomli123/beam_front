@@ -1,0 +1,4 @@
+﻿So, what is beam?
+well, beam is a social movie reviewing site that allows any person to create a free acount and write or read a review to every movie they like.
+
+Beam is designed in order to take power from big corporations are influenced by buisness and written by payed critics that they're opinions change by company requestments.
